@@ -37,6 +37,11 @@
   color: white;
 }
 
+#equal:hover {
+  background-color: darkblue;
+  color: white;
+}
+
 
 .button:hover {
   background-color: black;
