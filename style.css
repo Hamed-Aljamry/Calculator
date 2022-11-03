@@ -7,6 +7,12 @@
 html {
   background-color: black;
   color: black;
+  min-height: 100%;
+  background-image: url(high_quality_.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+
 }
 
 #display {
@@ -16,6 +22,7 @@ html {
   padding: 16px 8px;
   font-size: 30px;
   background-color: rgb(37, 107, 0);
+  border: black;
 
 }
 
@@ -52,4 +59,12 @@ html {
   background-color: black;
   color: white;
   transition:0.5s ease-in-out;
+}
+
+.best {
+  text-align: center;
+  box-shadow: 20px;
+}
+.image_wrap {
+ flex: auto;
 }
